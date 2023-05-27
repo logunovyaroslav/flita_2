@@ -1,5 +1,7 @@
 import networkx as nx
 import matplotlib.pyplot as plt
+
+
 while(1):
     try:
         # Запрос количества вершин и ребер у пользователя
@@ -38,6 +40,3 @@ while(1):
                     print("Неизвестное действие")
     except ValueError:
         print("Неправильное значение. Перезапуск программы...")
-
-
-
